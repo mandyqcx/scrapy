@@ -45,4 +45,14 @@ isinstance(iter([]),Iterator)
 isinstance(iter('abc'),Iterator)
 
 
-#Iterator是一个数据流，在被next()函数调用的时候不断返回下一个数据，直到没有数据时抛出stopIteration错误
+#%%Iterator是一个数据流，在被next()函数调用的时候不断返回下一个数据，直到没有数据时抛出stopIteration错误
+#for循环本质上就是不断调用next()函数实现的
+it=iter([1,2,3,4,5,6])
+while True:
+    try:
+        x=next(it)
+        print(x)
+    except StopIteration as e:
+        break
+
+

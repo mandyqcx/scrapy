@@ -64,8 +64,8 @@ o=odd()
 print(next(o))
 print(next(o))
 print(next(o))
-print(next(o))
-print(next(o))
+#print(next(o))
+#print(next(o))
 
 #用for循环调用生成器的时候，会发现拿不到生成器的return语句的返回值，
 #如果要拿到返回值，必须捕获StopIteration错误，返回值包含在StopIteration的value中

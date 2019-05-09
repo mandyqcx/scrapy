@@ -36,3 +36,6 @@ int('10010',**kwargs)
 max2=functools.partial(max,10)
 max2(5,6,7)
 
+
+#%%hex(x)：将整数转成十六进制的数字输出
+hex(34)

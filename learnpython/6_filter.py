@@ -29,8 +29,7 @@ for i in s:
     print(i.strip())
 
 
-#%%
-#求素数
+#%%求素数
 def _odd_iter():
     n=1
     while True:
